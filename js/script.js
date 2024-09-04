@@ -122,7 +122,7 @@ function setCounting()
 {
 let contID=setInterval(countdown, 1000);//returns id to use in clear interval
 //1000 millisec= 1 sec
-const startMinuits = 0.1;
+const startMinuits = 3;
 let time = startMinuits * 60;
 //convert to sec
 function countdown() {
