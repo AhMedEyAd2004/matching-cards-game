@@ -1,0 +1,169 @@
+*
+{
+    box-sizing: border-box;
+    /*34an 2l border 2w padding mya5od4 mn 2l width bta3 2l 3onsor*/
+}
+.warn
+{
+    color: yellow;
+}
+.mark
+{
+    display: block;
+ width: 100%;
+ height: 100%;
+position: relative;
+top: -10px;
+ text-align: center;
+  font-size : 150px;
+}
+.stcont
+{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.inp
+{
+    height: 25px;
+    outline: none;/*when focus*/
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+}
+.btn
+{
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 30px;
+    width: 120px;
+    height: 50px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+ .strt
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 105vh;
+    background-color: rgb(38, 12, 157);
+    opacity: 0.95;
+} 
+body
+{
+    background-color: rgb(160, 160, 235);
+    font-family: Arial, tahoma, sans-serif;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -999;
+}
+#cont0
+{
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.stats
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px ;
+    margin: 10px;
+    width: 80vw;
+    height: 50px;
+    border: 3px solid rgb(20, 17, 99);
+}
+.timer
+{
+    font-size: 30px;
+
+}
+.container1
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:  0px auto;
+    width: 70vw;
+    border: 3px solid rgb(26, 20, 205);
+}
+.card
+{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px ;
+    transform-style:preserve-3d ;
+    /*mohema fa45555*/
+    transition: 1s;
+    
+}
+.front
+{
+    position: absolute;
+    border: 3px solid ;
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: rgb(83, 77, 77);
+    display: block;
+    line-height: 155px;
+    text-align: center;
+    font-size : 150px;
+}
+.back
+{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(76, 70, 232) ;
+    border: 3px solid  rgb(83, 77, 77);
+    transform:rotateY(180deg);
+    backface-visibility: hidden;
+    /*dahr 2l face yb2a hidden*/
+}
+.svg
+{
+    width: 100%;
+    height: 90%;
+   padding-top: 5px;
+}
+.cardClicked
+{
+    transform:rotateY(180deg);
+}
+
+.endDiv
+{
+    border: 3px solid  rgb(83, 77, 77) ;
+    border-radius: 5%;
+    width: 50%;
+    height: 200px;
+    background-color:rgb(76, 70, 232);
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /*to position it vertically in middle without parent help*/
+    display: flex;
+    flex-direction: column;/*mohema*/
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: larger;
+    color:  #362323;
+}
+
+
